@@ -15,6 +15,7 @@ func main() {
 	}
 }
 
+// Handler ハンドラー
 func Handler(res http.ResponseWriter, req *http.Request) {
 	fmt.Fprintln(res, "hello, world")
 }
